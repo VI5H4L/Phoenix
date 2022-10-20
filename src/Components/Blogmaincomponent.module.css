@@ -1,0 +1,38 @@
+.maincontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: montserrat;
+  padding-left: 26px;
+  padding-top: 30px;
+  height: 300px;
+  border-radius: 10px;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}
+
+.containerimage {
+  width: 100%;
+  border-radius: 6px;
+  height: 300px;
+}
+
+.blogdate {
+  font-size: 10px;
+}
+.blogheading {
+  font-size: 16px;
+}
+.blogsubheading {
+  font-size: 10px;
+}
+.maincontainer:hover{
+  cursor: pointer;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  
+  transform: scale(1.02);
+}

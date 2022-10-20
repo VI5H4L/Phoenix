@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url("/public/images/about.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;   
+    background-position: center;     
+    margin-top: 100px;
+    height: 1020px;
+
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat;
+  color: white;
+  padding-top: 50px;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    height: 800px;
+  }
+}
+@media (max-width: 1080px) {
+  .container {
+    height: 1170px;
+  }
+}

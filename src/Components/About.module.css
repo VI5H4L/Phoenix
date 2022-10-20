@@ -31,3 +31,8 @@
     height: 1170px;
   }
 }
+@media (max-width: 550px) {
+  .container {
+    height: 1100px;
+  }
+}

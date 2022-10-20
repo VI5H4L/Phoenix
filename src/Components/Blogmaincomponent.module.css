@@ -11,6 +11,7 @@
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
+  margin-bottom: -20px;
 }
 
 .containerimage {
@@ -33,6 +34,5 @@
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  
   transform: scale(1.02);
 }

@@ -73,7 +73,7 @@ a{
     margin-right: 2%;
     flex-direction: row;
     justify-content: flex-end;
-    
+    z-index: 900000;
 }
 .burger{
     border-radius: 1px;
@@ -85,9 +85,7 @@ a{
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 4px;
-   
-    
-    display: none;
+  display: none;
 }
 .burger:hover{
     background-color: rgb(243, 242, 242);
@@ -117,6 +115,7 @@ margin-top: 5px;
     padding-bottom: 20px;
     margin-top: 10px;
     transition: all 1s;
+    z-index: 20000;
    }
    .nav_list li{
 
@@ -127,8 +126,9 @@ margin-top: 5px;
    }
    
 .rightnav1{
-    transform: translate(140vh);}
-
+    transform: translate(140vh);
+  
+}  
 }
 .hover_underline_animation {
     display: inline-block;

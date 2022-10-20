@@ -13,6 +13,7 @@ export default function Leftmainpage() {
     setActive(!isActive);
   };
   function handleScroll() {
+    handleToggle();
     window.scroll({
       top: document.body.offsetHeight,
       left: 0, 
@@ -31,25 +32,25 @@ export default function Leftmainpage() {
             </div>
           <div className= {`${Navcss.rightnav}  ${isActive && Navcss.rightnav1}`}>
             <li>
-              <Link className={Navcss.hover_underline_animation}  to="/">Home</Link>
+              <Link className={Navcss.hover_underline_animation}  onClick={handleToggle}   to="/">Home</Link>
             </li>
             <li>
-              <a className={Navcss.hover_underline_animation}  href="/">Our Team</a>
+              <Link className={Navcss.hover_underline_animation} onClick={handleToggle}   to="/">Our Team</Link>
             </li>
             <li>
-              <a className={Navcss.hover_underline_animation}  href="/">Fests</a>
+              <Link className={Navcss.hover_underline_animation} onClick={handleToggle} to="/">Fests</Link>
             </li>
             <li>
-              <a className={Navcss.hover_underline_animation}  href="/">Events</a>
+              <Link className={Navcss.hover_underline_animation} onClick={handleToggle} to="/">Events</Link>
             </li>
             <li>
-              <Link  className={Navcss.hover_underline_animation} onClick={handleScroll} >Contacts</Link>
+              <Link  className={Navcss.hover_underline_animation} onClick={handleScroll}  >Contacts</Link>
             </li>
             <li>
-              <a className={Navcss.hover_underline_animation}   href="/">Projects</a>
+              <Link className={Navcss.hover_underline_animation} onClick={handleToggle}  to="/">Projects</Link>
             </li>
             <li>
-              <Link  className={Navcss.hover_underline_animation} to="/blog">Blogs</Link>
+              <Link  className={Navcss.hover_underline_animation} to="/blog" onClick={handleToggle}>Blogs</Link>
             </li>
           </div>
         

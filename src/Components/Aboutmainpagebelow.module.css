@@ -44,8 +44,11 @@ margin-top: -50px;
 }
 }
 
-@media (max-width:550px){
-  .first{
-    margin-top: 10px;
+@media (max-width:550px) {
+  .middle {
+    margin-top: -30px;
   }
+   .container{
+    margin-top: -150px;
+   }
 }

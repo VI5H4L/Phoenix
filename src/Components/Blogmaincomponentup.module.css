@@ -7,11 +7,12 @@
   padding-top: 10px;
   align-items: flex-start;
   filter: grayscale(0%);
-  object-fit: conver;
+  object-fit: cover;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
 }
 .maincontainer:hover{
+  transform: scale(1.02);
   cursor: pointer;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -51,19 +52,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
-    margin-right:9%;
     margin-bottom: 20px;
     gap: 5px;
+    width: 100%;
    
 }
 .maincontainerleft{
-  width: 100%;
+  margin-left: -5%;
+  width: 87%;
 
 }
 .maincontainerright{
-  width: 100%;
-  padding-left: 4.5%;
+  margin-left: -2%;
+  width: 87%;
+  
+
 }
 .blogdate {
   font-size: 10px;

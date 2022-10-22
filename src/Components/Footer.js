@@ -8,15 +8,15 @@ export default function Footer(){
                 <div className={FooterCSS.left_section}>
                     <div className={FooterCSS.text_section}>
                        <div className={FooterCSS.left_text}>
-                        <p  to="\">Home</p>
-                        <p to="\">Fests</p>
-                        <p to="\">Projects</p>
+                       <Link className={FooterCSS.left_link} to={"/"}><p  to="\">Home</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/blogs"}><p to="\">Blogs</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/projects"}><p to="\">Projects</p></Link>
                        </div>
 
                        <div className={FooterCSS.right_text}>
-                        <p to="\">Events</p>
-                        <p to="\">Our Team</p>
-                        <p to="\">Credits</p>
+                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Events</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Our Team</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Credits</p></Link>
                        </div>
 
                     </div>

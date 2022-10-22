@@ -110,7 +110,7 @@
     justify-content: center;
 }
 
-.left_text>p{
+.left_link{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -121,6 +121,7 @@
     margin: 2.5px 0px;
 }
 
+
 .right_text{
     width: 40%;
     height: 100%;
@@ -130,7 +131,7 @@
     justify-content: center;
 }
 
-.right_text>p{
+.right_link{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -269,11 +270,11 @@
         font-size: 13px;
     }
 
-    .left_text>p{
+    .left_link{
         font-size: 13px;
     }
 
-    .right_text>p{
+    .right_link{
         text-align: right;
         font-size: 13px;
     }

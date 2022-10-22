@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navcss from "../Navbar.module.css";
 export default function Leftmainpage() {
-  const [isActive, setActive] = useState(false);
+  const [isActive, setActive] = useState("false");
   const [isActive1, setActive1] = useState(true);
   const [isActive2, setActive2] = useState(false);
   const [isActive3, setActive3] = useState(false);
@@ -133,7 +133,7 @@ export default function Leftmainpage() {
                   isActive2 && Navcss.clickactive
                 } `}
                 onClick={handleToggle2}
-                to="/error"
+                to="/our_team"
               >
                 Our Team
               </Link>
@@ -144,7 +144,7 @@ export default function Leftmainpage() {
                   isActive3 && Navcss.clickactive
                 } `}
                 onClick={handleToggle3}
-                to="/error"
+                to="/fests"
               >
                 Fests
               </Link>
@@ -155,7 +155,7 @@ export default function Leftmainpage() {
                   isActive4 && Navcss.clickactive
                 } `}
                 onClick={handleToggle4}
-                to="/error"
+                to="/events"
               >
                 Events
               </Link>
@@ -176,7 +176,7 @@ export default function Leftmainpage() {
                   isActive6 && Navcss.clickactive
                 } `}
                 onClick={handleToggle6}
-                to="/error"
+                to="/projects"
               >
                 Projects
               </Link>
@@ -186,7 +186,7 @@ export default function Leftmainpage() {
                 className={`${Navcss.hover_underline_animation} ${
                   isActive7 && Navcss.clickactive
                 } `}
-                to="/blog"
+                to="/blogs"
                 onClick={handleToggle7}
               >
                 Blogs

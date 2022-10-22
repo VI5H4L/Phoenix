@@ -8,15 +8,15 @@ export default function Footer(){
                 <div className={FooterCSS.left_section}>
                     <div className={FooterCSS.text_section}>
                        <div className={FooterCSS.left_text}>
-                       <Link className={FooterCSS.left_link} to={"/"}><p  to="\">Home</p></Link>
-                       <Link className={FooterCSS.left_link} to={"/blogs"}><p to="\">Blogs</p></Link>
-                       <Link className={FooterCSS.left_link} to={"/projects"}><p to="\">Projects</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/"}><p >Home</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/blogs"}><p >Blogs</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/projects"}><p >Projects</p></Link>
                        </div>
 
                        <div className={FooterCSS.right_text}>
-                       <Link className={FooterCSS.right_link} to={"/events"}><p to="\">Events</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/out_team"}><p to="\">Our Team</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/credits"}><p to="\">Credits</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/events"}><p >Events</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/our_team"}><p >Our Team</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/credits"}><p >Credits</p></Link>
                        </div>
 
                     </div>
@@ -39,7 +39,7 @@ export default function Footer(){
                        <p className={FooterCSS.sub_text}>Subscribe to our Newsletter</p>
                         <div className={FooterCSS.sub_form}>
                             <div className={FooterCSS.sub_input_div}>
-                                <input className={FooterCSS.sub_input} type="email" placeholder="example@gmail.com"></input>
+                                <input className={FooterCSS.sub_input} type="email" placeholder="xyz@gmail.com"></input>
                             </div>
                             <div className={FooterCSS.sub_button_div}>
                             <a className={FooterCSS.sub_anchor} href="/">Subscribe</a>

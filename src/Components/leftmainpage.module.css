@@ -126,31 +126,33 @@
 @media(max-width:600px){
   .firsttext{
     margin-top: 20px;
-  font-size: 22px;
+  font-size: 26px;
   }
   .nametext{
-    font-size: 70px;
+    font-size: 75px;
   }
   .tagline{
+    width: 79%;
     font-size: 18px;
   }
   .firsttext1a {
-    font-size: 38px;
+    font-size: 46px;
     
   }
 }
 @media(max-width:417px){
   .firsttext{
     margin-top: 20px;
-  font-size: 19px;
+  font-size: 23px;
   }
   .nametext{
-    font-size: 60px;
+    font-size: 68px;
   }
   .tagline{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 23px;
   }
   .firsttext1a {
-    font-size: 34px; 
+    font-size: 42px; 
   }
 }

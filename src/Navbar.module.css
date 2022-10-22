@@ -105,12 +105,12 @@ a{
 background-color: #323232;
 border-color: #323232;
 height: 0.5px;
-width: 25px;
+width: 22px;
 border: 2px solid;
 border-bottom: 0;
 border-left: 0;
 border-right: 0;
-margin-top: 5px;
+margin-top: 4.5px;
 
 }
 @media (max-width:839px){

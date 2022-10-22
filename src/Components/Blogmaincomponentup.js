@@ -8,7 +8,7 @@ export default function Blogmaincomponent(){
             </div>
             <div className={blogupcss.maincontainerright}>
             <p  className={blogupcss.blogdate} >
-              21, june 2022
+              21 June 2022
             </p>
             <h2 className={blogupcss.blogheading} >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit eius impedit nostrum eveniet nobis 

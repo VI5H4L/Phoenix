@@ -3,7 +3,7 @@ export default function Aboutcard() {
     return(
         <>
          <div className={Aboutcss.container}>
-            <img className={Aboutcss.aboutimage} src="/images/BLOG-IMG.png" alt="About-image" />
+            <img className={Aboutcss.aboutimage} src="/images/BLOG-IMG.png" alt="About-pic" />
          </div>
         </>
     );

@@ -1,5 +1,4 @@
 import React from 'react'
-import Appcss from '../App.module.css';
 import leftmainpage from './leftmainpage.module.css';
 export default function Leftmainpage(){
   function handleScroll1() {

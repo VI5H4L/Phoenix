@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navcss from "../Navbar.module.css";
-export default function Leftmainpage() {
+export default function Navbar() {
   const [isActive, setActive] = useState("false");
+
+  const [isCheck, setIsCheck] = useState(false);
+
   const [isActive1, setActive1] = useState(true);
   const [isActive2, setActive2] = useState(false);
   const [isActive3, setActive3] = useState(false);
@@ -17,7 +20,19 @@ export default function Leftmainpage() {
     });
   }, []);
   const handleToggle = () => {
-    setActive(!isActive);
+    if(!isActive){
+      setActive(!isActive);
+      setTimeout(()=>{setIsCheck(false)}, 100);
+      return;
+    }
+    else{
+      setIsCheck(true);
+      setTimeout(()=>{setActive(!isActive);}, 100);
+      
+      
+      return;
+    }
+    
   };
   const handleToggle1 = () => {
 
@@ -113,15 +128,17 @@ export default function Leftmainpage() {
               />
             </Link>
           </div>
-          <div
-            className={`${Navcss.rightnav}  ${isActive && Navcss.rightnav1}`}
-          >
+          
+          <div className={`${Navcss.rightnav} ${isActive && Navcss.rightnav1} ${!isCheck && Navcss.barNotActive}`} >
             <li>
               <Link
                 className={`${Navcss.hover_underline_animation} ${
                   isActive1 && Navcss.clickactive
                 } `}
-                onClick={handleToggle1}
+                onClick={()=>{
+                  handleToggle1(); 
+                  handleToggle();
+                }}
                 to="/"
               >
                 Home
@@ -132,7 +149,10 @@ export default function Leftmainpage() {
                 className={`${Navcss.hover_underline_animation} ${
                   isActive2 && Navcss.clickactive
                 } `}
-                onClick={handleToggle2}
+                onClick={()=>{
+                  handleToggle2(); 
+                  handleToggle();
+                }}
                 to="/our_team"
               >
                 Our Team
@@ -143,7 +163,10 @@ export default function Leftmainpage() {
                 className={`${Navcss.hover_underline_animation} ${
                   isActive3 && Navcss.clickactive
                 } `}
-                onClick={handleToggle3}
+                onClick={()=>{
+                  handleToggle3(); 
+                  handleToggle();
+                }}
                 to="/fests"
               >
                 Fests
@@ -154,7 +177,10 @@ export default function Leftmainpage() {
                 className={`${Navcss.hover_underline_animation} ${
                   isActive4 && Navcss.clickactive
                 } `}
-                onClick={handleToggle4}
+                onClick={()=>{
+                  handleToggle4(); 
+                  handleToggle();
+                }}
                 to="/events"
               >
                 Events
@@ -175,7 +201,10 @@ export default function Leftmainpage() {
                 className={`${Navcss.hover_underline_animation} ${
                   isActive6 && Navcss.clickactive
                 } `}
-                onClick={handleToggle6}
+                onClick={()=>{
+                  handleToggle6(); 
+                  handleToggle();
+                }}
                 to="/projects"
               >
                 Projects
@@ -187,7 +216,10 @@ export default function Leftmainpage() {
                   isActive7 && Navcss.clickactive
                 } `}
                 to="/blogs"
-                onClick={handleToggle7}
+                onClick={()=>{
+                  handleToggle7(); 
+                  handleToggle();
+                }}
               >
                 Blogs
               </Link>

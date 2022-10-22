@@ -3,9 +3,9 @@ export default function Abouttext(props) {
     return(
         <>
         <div className={Textcss.textmaindiv} >
-       <p classname={Textcss.textline} >{props.upper}</p> 
+       <p  >{props.upper}</p> 
         <br />
-       <p classname={Textcss.textline} >{props.lower}</p>
+       <p  >{props.lower}</p>
        </div  >
         </>);
     }

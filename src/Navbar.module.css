@@ -30,7 +30,7 @@ nav{
 display: flex;
 align-items: center;
 margin-top: 15px;
-justify-content: end;
+justify-content: flex-end;
 text-align: center;
 
 }
@@ -38,7 +38,7 @@ text-align: center;
 display: flex;
 margin: auto;
 margin-left:5.4%;
-justify-content: end;
+justify-content: flex-end;
    
 }
 .logo:hover{
@@ -147,6 +147,12 @@ margin-top: 4.5px;
     transform: translate(140vh);
   
 }  
+.barNotActive{
+    transform: translate(140vh);
+    display: none;
+  }
+
+
 }
 .hover_underline_animation {
     display: inline-block;
@@ -177,3 +183,6 @@ margin-top: 4.5px;
         width: 90%;
     }
   }
+
+
+  /* ${isActive && Navcss.rightnav1} */

@@ -1,6 +1,6 @@
 .leftcontainer {
   width: 50%;
-  margin: 7% 5% 5% 5%;
+  margin: 10% 5% 5% 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,8 +139,14 @@
     font-size: 46px;
     
   }
+  .leftcontainer {
+    margin-top: 18%;
+  }
 }
 @media(max-width:417px){
+  .leftcontainer {
+    margin-top: 20%;
+  }
   .firsttext{
     margin-top: 20px;
   font-size: 23px;

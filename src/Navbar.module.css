@@ -5,10 +5,11 @@
     text-decoration: none;
 }
 body{
-    transition: all 1s;
+    transition: all 1ms;
     font-family: "Montserrrat";
 }
 nav{
+    z-index: 2000;
     height: 55px;
     background-color:transparent;
     width: 100%;
@@ -54,6 +55,7 @@ justify-content: end;
     justify-content: center;
     align-items: center;
 
+
 }
 a{
     color: #323232;
@@ -62,6 +64,15 @@ a{
     font-weight: 500;
     padding-bottom: .25rem;
     font-weight:500;
+}
+.clickactive{
+    background-color: #ffc966;
+
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+ 
 }
 .rightnav{
     width: 55%;
@@ -102,7 +113,7 @@ border-right: 0;
 margin-top: 5px;
 
 }
-@media (max-width:750px){
+@media (max-width:839px){
     .nav_list{
         flex-direction: column;
     }
@@ -118,12 +129,10 @@ margin-top: 5px;
     -webkit-backdrop-filter: blur( 13px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-
     border-radius: 10px;
     padding-bottom: 20px;
     margin-top: 10px;
-    transition: all 1s;
+    transition: all 500ms;
     z-index: 20000;
    }
    .nav_list li{
@@ -163,8 +172,8 @@ margin-top: 5px;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  @media (max-width:1050px) {
+  @media (max-width:1200px) {
     .rightnav{
-        width: 70%;
+        width: 90%;
     }
   }

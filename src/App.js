@@ -2,13 +2,9 @@ import Footer from "./Components/Footer";
 
 import Navbar from "./Components/Navbar";
 import {Routes,Route } from 'react-router-dom';
-// import blogmaincomponent from "./Components/Blogmaincomponent";
-// import Blogmaincomponentup from "./Components/Blogmaincomponentup";
-// import Aboutcard from "./Components/Aboutcard";
-// import About from "./Components/About";
 import Blogmain from "./Components/Blogmainpage";
-// import Abouttext from "./Components/Abouttext";
 import Homepage from "./Components/Homepage";
+import Errorpage from "./Components/Errorpage";
 function App() {
   return (
     <>
@@ -18,9 +14,12 @@ function App() {
       
       <Route  path = "/" element={<Homepage/>}/>
       <Route  path = "/blog" element={<Blogmain/>}/>
+      <Route  path = "/*" element={<Errorpage/>}/>
       
     </Routes>
+
     <Footer/>
+
       </div>
     </>
   );

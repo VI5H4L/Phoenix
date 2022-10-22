@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import FooterCSS from "./Footer.module.css"
 
 export default function Footer(){
@@ -7,15 +8,15 @@ export default function Footer(){
                 <div className={FooterCSS.left_section}>
                     <div className={FooterCSS.text_section}>
                        <div className={FooterCSS.left_text}>
-                        <a href="\">Home</a>
-                        <a href="\">Fests</a>
-                        <a href="\">Projects</a>
+                        <p  to="\">Home</p>
+                        <p to="\">Fests</p>
+                        <p to="\">Projects</p>
                        </div>
 
                        <div className={FooterCSS.right_text}>
-                        <a href="\">Events</a>
-                        <a href="\">Our Team</a>
-                        <a href="\">Credits</a>
+                        <p to="\">Events</p>
+                        <p to="\">Our Team</p>
+                        <p to="\">Credits</p>
                        </div>
 
                     </div>

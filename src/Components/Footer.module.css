@@ -110,7 +110,7 @@
     justify-content: center;
 }
 
-.left_text>a{
+.left_text>p{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -130,7 +130,7 @@
     justify-content: center;
 }
 
-.right_text>a{
+.right_text>p{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -269,11 +269,11 @@
         font-size: 13px;
     }
 
-    .left_text>a{
+    .left_text>p{
         font-size: 13px;
     }
 
-    .right_text>a{
+    .right_text>p{
         text-align: right;
         font-size: 13px;
     }

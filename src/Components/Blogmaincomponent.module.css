@@ -5,19 +5,20 @@
   gap: 10px;
   font-family: montserrat;
   padding-left: 26px;
-  padding-top: 30px;
+  padding-top: 10px;
   height: 300px;
   border-radius: 10px;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   margin-bottom: -20px;
+  object-fit: cover;
 }
 
 .containerimage {
   width: 100%;
   border-radius: 6px;
-  height: 300px;
+  height: 300px;object-fit: cover;
 }
 
 .blogdate {
@@ -35,4 +36,20 @@
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   transform: scale(1.02);
+}
+@media(max-width:680px){
+  .maincontainer{
+   margin-bottom: 10px;
+  }
+  .containerimage {
+    
+    height: 250px;
+ 
+  }
+}
+@media(max-width:560px){
+  .maincontainer{
+   margin-bottom: 10px;
+  }
+
 }

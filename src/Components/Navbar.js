@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navcss from "../Navbar.module.css";
-export default function Navbar() {
-  const [isActive, setActive] = useState("false");
+export default function Navbar(props) {
+  const [isActive, setActive] = useState(false);
 
   const [isCheck, setIsCheck] = useState(false);
 
@@ -20,7 +20,7 @@ export default function Navbar() {
     });
   }, []);
   const handleToggle = () => {
-    if(!isActive){
+    if(isActive){
       setActive(!isActive);
       setTimeout(()=>{setIsCheck(false)}, 100);
       return;
@@ -115,12 +115,24 @@ export default function Navbar() {
       behavior: "smooth",
     });
   }
+
+
+  props.Test1(isActive);
+  props.Test2(handleToggle);
+  // if(props.Disable && isActive){
+  //   handleToggle();
+  // }
+
   return (
     <>
       <nav className={scroll && Navcss.navbar}>
         <ul className={Navcss.nav_list}>
           <div className={Navcss.logo}>
-            <Link to="/">
+            <Link onClick={()=>{
+                  handleToggle1(); 
+                  handleToggle();
+                }}
+                to="/">
               <img
                 src="images/logo2.png"
                 className={Navcss.logo_image}
@@ -129,7 +141,7 @@ export default function Navbar() {
             </Link>
           </div>
           
-          <div className={`${Navcss.rightnav} ${isActive && Navcss.rightnav1} ${!isCheck && Navcss.barNotActive}`} >
+          <div className={`${Navcss.rightnav} ${!isActive && Navcss.rightnav1} ${!isCheck && Navcss.barNotActive}`} >
             <li>
               <Link
                 className={`${Navcss.hover_underline_animation} ${

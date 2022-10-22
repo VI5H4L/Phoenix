@@ -14,9 +14,9 @@ export default function Footer(){
                        </div>
 
                        <div className={FooterCSS.right_text}>
-                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Events</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Our Team</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/projects"}><p to="\">Credits</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/events"}><p to="\">Events</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/out_team"}><p to="\">Our Team</p></Link>
+                       <Link className={FooterCSS.right_link} to={"/credits"}><p to="\">Credits</p></Link>
                        </div>
 
                     </div>

@@ -18,10 +18,11 @@
   align-items: center;
   font-family: montserrat;
   color: white;
+  font-size: 38px;
   padding-top: 50px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1450px) {
   .container {
     height: 800px;
   }
@@ -33,6 +34,6 @@
 }
 @media (max-width: 550px) {
   .container {
-    height: 1100px;
+    height: 910px;
   }
 }

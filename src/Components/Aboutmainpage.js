@@ -8,11 +8,11 @@ export default function Aboutmainpage() {
         <div className= {Aboutmainpagecss.container}>
            
             <div className={Aboutmainpagecss.first}><div>
-            <Aboutcard /></div>
+            <Aboutcard imgNo={1} /></div>
             <div className={Aboutmainpagecss.middle}>
-            <Aboutcard /></div>
+            <Aboutcard imgNo={2} /></div>
             <div >
-            <Aboutcard /></div></div>
+            <Aboutcard imgNo={3} /></div></div>
             
             <div className={Aboutmainpagecss.text}>
             <Abouttext upper={<Fragment>The <b>Phoenix</b> as a club brings together like minded people to convert <b>ideas into reality</b>.</Fragment>} lower={<Fragment>Our Main Motive is to bring out the feeling of <b>togetherness</b> among the students of LNMIIT and to spread the culture of <b>Robotics, DIP, Embedded System</b>.</Fragment>}/></div>

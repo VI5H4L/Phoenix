@@ -24,7 +24,7 @@
 
 @media (max-width: 1450px) {
   .container {
-    height: 800px;
+    height: 850px;
   }
 }
 @media (max-width: 1080px) {
@@ -34,7 +34,7 @@
 }
 @media (max-width: 550px) {
   .container {
-    height: 910px;
+    height: 920px;
   }
   .heading{
     font-size: 30px;

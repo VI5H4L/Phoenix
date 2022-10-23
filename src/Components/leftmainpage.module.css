@@ -146,7 +146,8 @@
 }
 @media(max-width:417px){
   .leftcontainer {
-    margin-top: 20%;
+    margin-top: 28%;
+    margin-bottom: 0.5%;
   }
   .firsttext{
     margin-top: 20px;

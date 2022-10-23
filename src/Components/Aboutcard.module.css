@@ -14,7 +14,7 @@
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   object-fit: cover;
-  border: solid white 4px
+  border: solid white 4px;
 }
 .aboutimage:hover {
   cursor: pointer;
@@ -37,6 +37,7 @@
     height: 200px;
     width: 98%;
   }
+  
 }
 @media(min-width:1450px){
   .aboutimage {
@@ -54,6 +55,9 @@
 
 
 @media (max-width:550px){
+  .aboutimage{
+    border: solid white 3px;
+  }
   .container{
     height: 140px;
     width: 85%;

@@ -140,7 +140,8 @@
     
   }
   .leftcontainer {
-    margin-top: 18%;
+    /* margin-top: 18%; */
+    margin-top: 95px;
   }
 }
 @media(max-width:417px){

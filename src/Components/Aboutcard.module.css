@@ -56,7 +56,7 @@
 
 @media (max-width:550px){
   .aboutimage{
-    width: 100px;
+    width: 94px;
     margin: 0px;
     margin-left: 3px;
     border: solid white 3px;
@@ -64,6 +64,6 @@
   .container{
     height: 140px;
     width: 85%;
-    margin-right: 21px;
+    margin-right: 10px;
   }
 } 

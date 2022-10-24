@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    font-size: 39px;
     margin-bottom: 50px;
     font-family: montserrat;
 }
@@ -48,6 +49,9 @@
     }
 }
 @media(max-width:550px){
+    .heading{
+        font-size: 30px;
+    }
     .blogcontainer{
        margin-right: 2%;
        padding-left: 3%

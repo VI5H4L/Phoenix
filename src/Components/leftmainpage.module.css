@@ -78,7 +78,8 @@
   font-size: 15px;
 }
 .homepage_button2 {
-  background-color: white;
+  /* background-color: white; */
+  background-color: transparent;
   font-family: Raleway;
   margin-left: 2%;
   height: 40px;

@@ -67,7 +67,7 @@ function App() {
               }
             },
             color: {
-              value: "#fec31c"
+              value: ["#fec31c","#F9A105","#FEC423"]
             },
             shape: {
               type: "circle",
@@ -113,7 +113,7 @@ function App() {
             },
             move: {
               enable: true,
-              speed: 3,
+              speed: 2.5,
               direction: "none",
               random: true,
               straight: false,
@@ -154,7 +154,7 @@ function App() {
                 speed: 3
               },
               repulse: {
-                distance: 200,
+                distance: 150,
                 duration: 0.4
               },
               push: {

@@ -20,14 +20,15 @@
 }
 .maincontainerleft {
   width: 47%;
-  padding-left:6%;
-  margin-right: 3%;
+  padding-left:5.5%;
+  margin-right: 3.5%;
 }
 .maincontainerright {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 40%;
+  padding-right: 2%;
 }
 .containerimage {
   width: 100%;
@@ -47,6 +48,7 @@
   font-size: 14px;
 }
 
+
 @media(max-width:1000px){
 .maincontainer{
     flex-direction: column;
@@ -58,12 +60,12 @@
    
 }
 .maincontainerleft{
-  margin-left: -3%;
-  width: 87%;
+margin-left: -2%;
+  width: 90%;
 
 }
 .maincontainerright{
-  margin-left: -0.5%;
+
   width: 87%;
   
 

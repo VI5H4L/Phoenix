@@ -39,18 +39,20 @@
 }
 @media(max-width:730px){
   .maincontainer{
-   margin-bottom: 10px;
+   margin-bottom: -50px;
    margin-left: 10px;
   }
   .containerimage {
-    
     height: 250px;
- 
   }
 }
-@media(max-width:560px){
-  .maincontainer{
-   margin-bottom: 10px;
-  }
 
+@media(max-width:730px){
+  .maincontainer{
+   margin-bottom: -50px;
+   margin-left: 10px;
+  }
+  .containerimage {
+    height: 250px;
+  }
 }

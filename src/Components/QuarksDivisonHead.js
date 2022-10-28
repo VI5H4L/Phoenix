@@ -10,7 +10,7 @@ function QuarksDivisonHead(props)
             <div className={CoordiCss.coordinators}>
             <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img1}`} alt="quarksHead1"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img1}`} alt="quarksHead1"/>
                 </div>
                 
                 <Details
@@ -19,7 +19,7 @@ function QuarksDivisonHead(props)
                 </div>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img2}`} alt="quarksHead2"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img2}`} alt="quarksHead2"/>
                 </div>
                 
                 <Details
@@ -28,7 +28,7 @@ function QuarksDivisonHead(props)
                 </div>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img3}`} alt="quarksHead3"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img3}`} alt="quarksHead3"/>
                 </div>
                 
                 <Details

@@ -11,7 +11,7 @@ function HardwareDivisonHead(props)
             <div className={CoordiCss.coordinators}>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img1}`} alt="hardwareHead1"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img1}`} alt="hardwareHead1"/>
                 </div>
                 
                 <Details
@@ -21,7 +21,7 @@ function HardwareDivisonHead(props)
 
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img2}`} alt="hardwareHead2"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img2}`} alt="hardwareHead2"/>
                 </div>
                 
                 <Details

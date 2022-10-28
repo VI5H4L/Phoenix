@@ -11,7 +11,7 @@ function SoftwareDivisonHead(props)
             <div className={CoordiCss.coordinators}>
             <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img1}`} alt="softwareHead1"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img1}`} alt="softwareHead1"/>
                 </div>
                 
                 <Details
@@ -20,7 +20,7 @@ function SoftwareDivisonHead(props)
                 </div>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img3}`} alt="softwareHead2"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img3}`} alt="softwareHead2"/>
                 </div>
                 
                 <Details
@@ -29,7 +29,7 @@ function SoftwareDivisonHead(props)
                 </div>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img2}`} alt="softwareHead3"/>
+                <img className={CoordiCss.mainimage} src={`/images/${props.img2}`} alt="softwareHead3"/>
                 </div>
                 
                 <Details

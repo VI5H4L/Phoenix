@@ -12,7 +12,7 @@ function Coordinator(props)
                 <div className={CoordiCss.container}>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img1}`} alt="coordinator1"/>
+                <img className={CoordiCss.mainimage}  src={`/images/${props.img1}`} alt="coordinator1"/>
 
                 </div>                
                 <Details
@@ -26,7 +26,7 @@ function Coordinator(props)
                 <div className={CoordiCss.container}>
                 <div className={CoordiCss.imageDiv}>
                     <div className={CoordiCss.images}>
-                <img  src={`/images/${props.img2}`}  alt="coordinator2"/>
+                <img  src={`/images/${props.img2}`} className={CoordiCss.mainimage}  alt="coordinator2" />
                 </div>
                 
                 <Details

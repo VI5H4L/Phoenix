@@ -9,7 +9,7 @@
 
 .coordinatorsHeading
 {
-    text-align: center;
+text-align: center;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -37,13 +37,24 @@ margin: auto;
 
 .images 
 {
-   /* height: 150px; */
 position: absolute;
 top: -50px;
 z-index: 1;
-   left: 84px;
+left: 87px;
+max-width: 200px;
+max-height: 200px;
+overflow: hidden;
+object-fit: cover;
+
 }
 
+.mainimage{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 9px solid white;
+    object-fit: cover;
+}
 .imageDiv 
 {
   position: relative;

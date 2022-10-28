@@ -12,7 +12,7 @@
   -moz-filter: grayscale(0%);
   margin-bottom: -20px;
   object-fit: cover;
-  margin-bottom: 7%;
+ 
 
 }
 .containerimage {
@@ -42,8 +42,6 @@
   overflow: hidden !important;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
-
-
 }
 .maincontainer:hover{
   cursor: pointer;

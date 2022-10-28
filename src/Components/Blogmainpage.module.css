@@ -16,6 +16,7 @@
     column-gap: 34px;
     transition: all 1ms;
     margin-top: -65px;
+    margin-left: 0.5%;
 
    
 }
@@ -34,51 +35,10 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
-@media(max-width:1350px){
-    .blogcontainer{
-        padding-left: 4.5%;
-        padding-right: 6%;
+@media (max-width:661px) {
   
-    }
-}
-@media(max-width:1200px){
-    .blogcontainer{
-        padding-left: 4.5%;
-        padding-right: 6%;
-  
-    }
-}
-@media(max-width:1015px) {
-    .blogcontainer{
-     row-gap: 10px;
-     padding-right: 6.7%;
-     padding-left: 3.5%;
-    }
+.blogcontainer{
+  margin-bottom: 20px; 
 }
 
-@media(max-width:780px){
-    .blogcontainer{
-    margin-bottom: 50px;
-    padding-right: 8%;
-    row-gap: 30px;
-  
-}}
-@media(max-width:682px){
-    .blogcontainer{
-    row-gap: 80px;
-   padding-left: 1%;
-   margin-bottom: 80px;
-}}
-@media(max-width:520px){
-    .blogcontainer{
-     margin-right: 0.5%;
-     row-gap: 40px;
-}}
-@media(max-width:450px){
-    .blogcontainer{
-        margin-right: 1%;
-}}
-@media(max-width:400px){
-    .blogcontainer{
-        margin-right: 2%;
-}}
+  }

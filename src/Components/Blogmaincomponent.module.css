@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 10px;
   font-family: montserrat;
-  padding-left: 26px;
   padding-top: 10px;
   height: 300px;
   border-radius: 10px;
@@ -13,12 +12,14 @@
   -moz-filter: grayscale(0%);
   margin-bottom: -20px;
   object-fit: cover;
-}
+  margin-bottom: 7%;
 
+}
 .containerimage {
   width: 100%;
   border-radius: 6px;
-  height: 300px;object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
 
 .blogdate {
@@ -28,7 +29,10 @@
   font-size: 16px;
 }
 .blogsubheading {
+ 
   font-size: 10px;
+  
+
 }
 .maincontainer:hover{
   cursor: pointer;
@@ -37,22 +41,10 @@
   -moz-filter: grayscale(100%);
   transform: scale(1.02);
 }
-@media(max-width:730px){
-  .maincontainer{
-   margin-bottom: -50px;
-   margin-left: 10px;
-  }
-  .containerimage {
-    height: 250px;
-  }
-}
 
-@media(max-width:730px){
+
+@media (max-width:661px) {
   .maincontainer{
-   margin-bottom: -50px;
-   margin-left: 10px;
-  }
-  .containerimage {
     height: 250px;
   }
 }

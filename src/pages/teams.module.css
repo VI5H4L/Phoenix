@@ -11,7 +11,7 @@
 .mainImage 
 {
     width: 55%;
-    min-width:350px ;
+    /* min-width:325px ; */
     /* background-color: grey; */
     margin: auto;
     margin-bottom: 2em;
@@ -33,4 +33,21 @@
         margin: 0;
         overflow: hidden;
     }
+
+    .mainImage 
+{
+    
+    align-self: center;
+    height: 200px;
+ 
+    height: -webkit-fill-available;
+    border-radius: 10px;
+    width: 85%;
+}
+
+.mainImage1 
+{
+    width: 100%;
+ 
+}
 }

@@ -54,3 +54,10 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+@media screen and (max-width: 900px)
+{
+    .teamname{
+        font-size: 1.4rem;
+    }
+}

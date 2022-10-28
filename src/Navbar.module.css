@@ -134,6 +134,9 @@ margin-top: 4.5px;
     margin-top: 10px;
     transition: all 500ms;
     z-index: 20000;
+
+    margin-right: 0%;
+    width: 85%;
    }
    .nav_list li{
 
@@ -178,11 +181,11 @@ margin-top: 4.5px;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  @media (max-width:1200px) {
+  /* @media (max-width:1200px) {
     .rightnav{
         width: 90%;
     }
-  }
+  } */
 
 
   /* ${isActive && Navcss.rightnav1} */

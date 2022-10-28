@@ -1,0 +1,68 @@
+.coordinators
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.coordinatorsHeading
+{
+    text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4375rem;
+
+text-transform: capitalize;
+
+color: #323232;
+
+opacity: 0.725;
+margin: auto;
+}
+
+.coordinatorsdiv 
+{
+    width: 100%;
+}
+
+.container
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.images 
+{
+   /* height: 150px; */
+position: absolute;
+top: -50px;
+z-index: 1;
+   left: 84px;
+}
+
+.imageDiv 
+{
+  position: relative;
+
+}
+
+
+@media screen and (max-width: 900px)
+{
+.container {
+    /* width: 100%; */
+    margin-bottom: 1.5em;
+}
+.coordinators {
+    flex-wrap: wrap;
+    align-items: center;
+ 
+}
+.imageDiv {
+    margin: 2em 0px;
+}
+}

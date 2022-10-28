@@ -6,6 +6,9 @@ import Blogmain from "./Components/Blogmainpage";
 import Homepage from "./Components/Homepage";
 import Errorpage from "./Components/Errorpage";
 
+import TeamsY20 from "./pages/TeamsY20"
+import TeamsY19 from "./pages/TeamsY19"
+
 
   // Particle Background
   import { useCallback } from "react";
@@ -38,7 +41,17 @@ function App() {
     await console.log(container);
   }, []);
 
+  // .......................
 
+  let [isY20, setisY20]=useState(true);
+
+  const setY20false = () => {
+    setisY20(false);
+  }
+  const setY20true = () => {
+    setisY20(true);
+  }
+  
   return (
   <div>
     <Navbar Test1={Test1} Test2={Test2} />
@@ -46,6 +59,8 @@ function App() {
       
       <Route  path = "/" element={<div onClick={DisableNav}><Homepage/></div>}/>
       <Route  path = "/blogs" element={<div onClick={DisableNav}><Blogmain/></div>}/>
+      <Route  path = "/our_team_y20" element={<div onClick={DisableNav}><TeamsY20 isY20={isY20} setY20false={setY20false} setY20true={setY20true} /></div>}/>
+      <Route  path = "/our_team_y19" element={<div onClick={DisableNav}><TeamsY19 isY20={isY20} setY20false={setY20false} setY20true={setY20true} /></div>}/>
       <Route  path = "/*" element={<div onClick={DisableNav}><Errorpage/></div>}/>
       
     </Routes>
@@ -60,7 +75,7 @@ function App() {
         {
           particles: {
             number: {
-              value: 20,
+              value: 18,
               density: {
                 enable: true,
                 value_area: 473.51100518494565
@@ -85,7 +100,7 @@ function App() {
               }
             },
             opacity: {
-              value: 0.25638560394833854,
+              value: 0.3,
               random: true,
               anim: {
                 enable: true,
@@ -95,12 +110,12 @@ function App() {
               }
             },
             size: {
-              value: 47.35110051849457,
+              value: 48,
               random: true,
               anim: {
                 enable: false,
                 speed: 40,
-                size_min: 0.1,
+                size_min: 0.3,
                 sync: false
               }
             },

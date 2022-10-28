@@ -1,0 +1,36 @@
+.mainDiv
+{
+    padding-top: 400px;
+    display: flex;
+   width: 80%;
+   justify-content: center;
+   max-width: fit-content;
+}
+
+
+.mainImage 
+{
+    width: 55%;
+    min-width:350px ;
+    /* background-color: grey; */
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+.mainImage1 
+{
+    width: 100%;
+ 
+    height: -webkit-fill-available;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:900px){
+    .body 
+    {
+        margin: 0;
+        overflow: hidden;
+    }
+}

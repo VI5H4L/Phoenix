@@ -165,7 +165,7 @@ export default function Navbar(props) {
                   handleToggle2(); 
                   handleToggle();
                 }}
-                to="/our_team"
+                to="/our_team_y20"
               >
                 Our Team
               </Link>

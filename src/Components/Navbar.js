@@ -217,9 +217,9 @@ export default function Navbar(props) {
                   handleToggle6(); 
                   handleToggle();
                 }}
-                to="/projects"
+                to="/credits"
               >
-                Projects
+                Credits
               </Link>
             </li>
             <li>

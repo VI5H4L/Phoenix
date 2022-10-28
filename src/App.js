@@ -8,6 +8,7 @@ import Errorpage from "./Components/Errorpage";
 
 import TeamsY20 from "./pages/TeamsY20"
 import TeamsY19 from "./pages/TeamsY19"
+import Credits from "./pages/CreditsPage"
 
 
   // Particle Background
@@ -61,6 +62,7 @@ function App() {
       <Route  path = "/blogs" element={<div onClick={DisableNav}><Blogmain/></div>}/>
       <Route  path = "/our_team_y20" element={<div onClick={DisableNav}><TeamsY20 isY20={isY20} setY20false={setY20false} setY20true={setY20true} /></div>}/>
       <Route  path = "/our_team_y19" element={<div onClick={DisableNav}><TeamsY19 isY20={isY20} setY20false={setY20false} setY20true={setY20true} /></div>}/>
+      <Route  path = "/credits" element={<div onClick={DisableNav}><Credits /></div>}/>
       <Route  path = "/*" element={<div onClick={DisableNav}><Errorpage/></div>}/>
       
     </Routes>

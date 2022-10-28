@@ -10,7 +10,7 @@ export default function Footer(){
                        <div className={FooterCSS.left_text}>
                        <Link className={FooterCSS.left_link} to={"/"}><p >Home</p></Link>
                        <Link className={FooterCSS.left_link} to={"/blogs"}><p >Blogs</p></Link>
-                       <Link className={FooterCSS.left_link} to={"/projects"}><p >Projects</p></Link>
+                       <Link className={FooterCSS.left_link} to={"/fests"}><p >Fests</p></Link>
                        </div>
 
                        <div className={FooterCSS.right_text}>

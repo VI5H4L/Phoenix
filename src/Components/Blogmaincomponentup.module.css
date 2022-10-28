@@ -21,6 +21,7 @@
 }
 .maincontainerleft {
   width: 47%;
+  
 }
 .maincontainerright {
   display: flex;
@@ -39,13 +40,24 @@
 }
 
 .blogdate {
-  font-size: 14px;
+  font-size: 12px;
 }
 .blogheading {
   font-size: 22px;
 }
 .blogsubheading {
   font-size: 14px;
+
+  /**Truncate**/
+  overflow:hidden;
+  line-height: 1.2rem;
+  max-height: 3.6rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
 }
 @media (max-width:1100px) {
 .maincontainer{
@@ -56,13 +68,14 @@
 }  
 .maincontainerleft{
   width: 88%;
+  margin-bottom: 5px;
 }
 .maincontainerright{
   width: 88%;
 
 }
 .blogdate {
-  font-size: 11px;
+  font-size: 10px;
 }
 .blogheading {
   font-size: 17px;
@@ -75,5 +88,9 @@
 @media (max-width:661px) {
   .containerimage{
     height: 200px;
+  }
+  .blogsubheading{
+    line-height: 1rem;
+    max-height: 3rem;
   }
 }

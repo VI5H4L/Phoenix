@@ -5,7 +5,7 @@
   gap: 10px;
   font-family: montserrat;
   padding-top: 10px;
-  height: 300px;
+  height: 310px;
   border-radius: 10px;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
@@ -30,8 +30,19 @@
 }
 .blogsubheading {
  
-  font-size: 10px;
+  font-size: 12px;
   
+  /**Truncate**/
+  overflow:hidden;
+  line-height: 1rem;
+  max-height: 3rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+
 
 }
 .maincontainer:hover{
@@ -45,6 +56,6 @@
 
 @media (max-width:661px) {
   .maincontainer{
-    height: 250px;
+    height: 310px;
   }
 }

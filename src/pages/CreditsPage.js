@@ -8,8 +8,8 @@ import Designer from "../Components/Designer";
 
   const creditsData={
     mentors: [{name:"Kingshuk Ghosh",img:"SoftwareDivisonHead1.png"},{name:"Vaibhav Jaiswal",img:"SoftwareDivisonHead2.png"}],
-    developers:[{name:"Gaurav Agrawal",img:"gaurav.png"},{name:"Vishal Kumar",img:"vishal.png"},{name:"Ramsha Iqbal",img:"ramsha.png"}],
-    designer:[{name:"Vishal Kumar",img:"vishal.png"}]
+    developers:[{name:"Gaurav Agrawal",img:"gaurav.png"},{name:"Vishal Kumar",img:"vishal1.png"},{name:"Ramsha Iqbal",img:"ramsha.png"}],
+    designer:[{name:"Vishal Kumar",img:"vishal1.png"}]
   }
 
 function Teams(props)

@@ -9,8 +9,8 @@ import QuarksDivisonHead from "../Components/QuarksDivisonHead";
 
 
   const y20Data={
-    coordinators: [{name:"Prajwal Chittora",img:"coordinator1.png",link1:"https://www.linkedin.com/feed/"},{name:"Lakshya Setia",img:"coordinator2.png"}],
-    hardware:[{name:"Lakshya Choudary",img:"HardwareDivisonHead1.png"},{name:"Prabhav Sharma",img:"HardwareDivisonHead2.png"}],
+    coordinators: [{name:"Prajwal Chittora",img:"coordinator1.png",link1:"https://www.linkedin.com/feed/"},{name:"Lakshay Setia",img:"coordinator2.png"}],
+    hardware:[{name:"Lakshya Choudhary",img:"HardwareDivisonHead1.png"},{name:"Prabhav Sharma",img:"HardwareDivisonHead2.png"}],
     software:[{name:"Kingshuk Ghosh",img:"SoftwareDivisonHead1.png"},{name:"Swatantra Jain",img:"SoftwareDivisonHead2.png"},{name:"Vaibhav Jaiswal",img:"SoftwareDivisonHead3.png"}],
     quarks:[{name:"Yash Pachauri",img:"QuarksDivisonHead1.png"},{name:"Bhavika Agarwal",img:"QuarksDivisonHead2.png"},{name:"Rajat Bothra",img:"QuarksDivisonHead3.png"}]
   }

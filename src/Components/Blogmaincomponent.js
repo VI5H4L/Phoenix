@@ -1,9 +1,6 @@
 import React from 'react'
 import blogcss from "./Blogmaincomponent.module.css"
 export default function Blogmaincomponent(props){
-    console.log(props.details.url);
-    const value = props.details;
-    console.log(value);
     return (
         <>
        

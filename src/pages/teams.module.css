@@ -26,6 +26,14 @@
     border-radius: 10px;
 }
 
+.mainImage1:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    /* transform: scale(1.02); */
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.3);
+}
+
 .hr 
 {
     margin-bottom: 2em;

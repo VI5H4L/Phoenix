@@ -1,20 +1,22 @@
 import blogupcss from "./Blogmaincomponentup.module.css"
+import TopBlogdata from "./TopBlogdata"
+
 export default function Blogmaincomponent(){
     return (
         <>
         <div className={blogupcss.maincontainer}>
             <div className={blogupcss.maincontainerleft} >
-            <img className={blogupcss.containerimage} src="images/blog0.jpg" alt="BLOG-IMG" />
+            <img className={blogupcss.containerimage} src={TopBlogdata[0].url} alt="BLOG-IMG" />
             </div>
             <div className={blogupcss.maincontainerright}>
             <p  className={blogupcss.blogdate} >
-              25 April 2022
+            {TopBlogdata[0].date}
             </p>
             <h2 className={blogupcss.blogheading} >
-            Torque ' 22 
+            {TopBlogdata[0].heading}
             </h2>
             <p className={blogupcss.blogsubheading}>
-            The new batch of Y-21 was introduced to the basics of Robotics with the help of Differential Drive Robot. It was followed by Track completion and Robosoccer competitions with the bots that they bulit after the informative introduction.
+            {TopBlogdata[0].subheading}
             </p>
             </div>
         </div>

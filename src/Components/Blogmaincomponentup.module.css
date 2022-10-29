@@ -2,17 +2,19 @@
   transition: all .4s;
   display: flex;
   width: 100%;
-  z-index: -1;
-  font-family: montserrat;
+  font-family: "Montserrat";
   padding-top: 10px;
-  filter: grayscale(0%);
-  object-fit: cover;
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
   justify-content: center;
   gap :2%;
 }
-.maincontainer:hover{
+.containerimage:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.maincontainerright:hover{
   transform: scale(1.02);
   cursor: pointer;
   filter: grayscale(100%);
@@ -51,13 +53,13 @@
   /**Truncate**/
   overflow:hidden;
   line-height: 1.2rem;
-  max-height: 3.6rem;
+  max-height: 4.8rem;
   -webkit-box-orient: vertical;
   display: block;
   display: -webkit-box;
   overflow: hidden !important;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
 }
 @media (max-width:1100px) {
 .maincontainer{

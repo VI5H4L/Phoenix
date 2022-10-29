@@ -17,15 +17,34 @@
     border-radius: 10px;
     object-fit: cover;
 }
+.imageDiv{
+    width: 100%;
+    position: relative;
+}
 .mainImage:hover{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
 }
+.iconStyle{
+    color: black;
+    position:absolute;
+    top : 55px;
+    z-index: 3;
+    left : 15px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius : 100%;
+}
+.iconStyle:hover{
+    background-color: #323232;
+    border: 3px solid #323232;
+    color: white;
+}
 .date{
     font-size: 1rem;
     align-self: flex-start;
-    margin-top: 22px;
+    margin-top: 20px;
     opacity: 0.7;
 }
 
@@ -64,6 +83,7 @@
     }
     .date{
         font-size: 0.75rem;
+        margin-top: 14px;
     }
     .heading{
         font-size: 22px;

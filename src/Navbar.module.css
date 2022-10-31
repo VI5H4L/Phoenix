@@ -121,8 +121,6 @@ margin-top: 4.5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color:  #f0a62f; */
-
     background: rgba( 255, 255, 255, 0.4 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13px );
@@ -181,11 +179,15 @@ margin-top: 4.5px;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  /* @media (max-width:1200px) {
-    .rightnav{
-        width: 90%;
+   @media (max-width:1200px) {
+    .hover_underline_animation{
+        font-size: 13px;
     }
-  } */
+  }
+   @media (max-width:1000px) {
+    .hover_underline_animation{
+        font-size: 11px;
+    }
+  }
 
 
-  /* ${isActive && Navcss.rightnav1} */

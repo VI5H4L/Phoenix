@@ -27,7 +27,7 @@ function Teams(props)
             name2={y20Data.coordinators[1].name}
             img1={y20Data.coordinators[0].img}
             img2={y20Data.coordinators[1].img}
-            link1={y20Data.coordinators[0].img}
+
             />
             <HardwareDivisonHead 
             name1={y20Data.hardware[0].name}

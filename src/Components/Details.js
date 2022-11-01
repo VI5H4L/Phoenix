@@ -18,9 +18,9 @@ function Details(props)
         <h1 className={DetailsCss.teamname}>{props.name}</h1>
         <div className={DetailsCss.icons}>
             <a href={props.link1}><FaLinkedinIn size={20} className={DetailsCss.iconStyle}/></a>
-            <a href={props.link1}><FaInstagram size={20} className={DetailsCss.iconStyle}/></a>
-            <a href={props.link1}><FaFacebookF size={18} className={DetailsCss.iconStyle}/></a>
-           <a href={props.link1}><FiMail size={20} className={DetailsCss.iconStyle}/></a> 
+            <a href={props.link2}><FaInstagram size={20} className={DetailsCss.iconStyle}/></a>
+            <a href={props.link3}><FaFacebookF size={18} className={DetailsCss.iconStyle}/></a>
+           <a href={props.link4}><FiMail size={20} className={DetailsCss.iconStyle}/></a> 
         </div>
            
       

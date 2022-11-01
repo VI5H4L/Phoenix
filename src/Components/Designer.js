@@ -16,6 +16,10 @@ function SoftwareDivisonHead(props)
                 
                 <Details
              name={props.name1}
+             link1={props.link1}
+             link2={props.link2}
+             link3={props.link3}
+             link4={props.link4}
             />
                 </div>
                 

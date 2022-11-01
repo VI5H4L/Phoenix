@@ -135,7 +135,7 @@ export default function Navbar(props) {
           <div className={Navcss.logo}>
             <Link onClick={()=>{
                   handleToggle1(); 
-                  handleToggle();
+                  // handleToggle();
                   gotoTop();
                 }}
                 to="/">

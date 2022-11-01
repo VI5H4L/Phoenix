@@ -2,21 +2,24 @@ import { Link } from "react-router-dom"
 import FooterCSS from "./Footer.module.css"
 
 export default function Footer(){
+    const gotoTop = ()=>{
+        window.scrollTo({top:0,left:0,behavior:"smooth"});
+    }
     return (
         <section className={FooterCSS.footer}>
            <div className={FooterCSS.footerup}>
                 <div className={FooterCSS.left_section}>
                     <div className={FooterCSS.text_section}>
                        <div className={FooterCSS.left_text}>
-                       <Link className={FooterCSS.left_link} to={"/"}><p >Home</p></Link>
-                       <Link className={FooterCSS.left_link} to={"/blogs"}><p >Blogs</p></Link>
-                       <Link className={FooterCSS.left_link} to={"/fests"}><p >Fests</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.left_link} to={"/"}><p >Home</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.left_link} to={"/blogs"}><p >Blogs</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.left_link} to={"/fests"}><p >Fests</p></Link>
                        </div>
 
                        <div className={FooterCSS.right_text}>
-                       <Link className={FooterCSS.right_link} to={"/events"}><p >Events</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/our_team_y20"}><p >Our Team</p></Link>
-                       <Link className={FooterCSS.right_link} to={"/credits"}><p >Credits</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.right_link} to={"/events"}><p >Events</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.right_link} to={"/our_team_y20"}><p >Our Team</p></Link>
+                       <Link onClick={gotoTop} className={FooterCSS.right_link} to={"/credits"}><p >Credits</p></Link>
                        </div>
 
                     </div>
@@ -42,7 +45,7 @@ export default function Footer(){
                                 <input className={FooterCSS.sub_input} type="email" placeholder="xyz@gmail.com"></input>
                             </div>
                             <div className={FooterCSS.sub_button_div}>
-                            <a className={FooterCSS.sub_anchor} href="/">Subscribe</a>
+                            <a className={FooterCSS.sub_anchor} href="https://www.lnmiit.ac.in/">Subscribe</a>
                             </div>
                         </div>
                     </div>

@@ -107,6 +107,11 @@ export default function Navbar(props) {
     setActive5(false);
     setActive6(false);
   };
+
+  const gotoTop = ()=>{
+    window.scrollTo({top:0,left:0,behavior:"smooth"});
+  }
+
   function handleScroll() {
     handleToggle5();
     window.scroll({
@@ -131,6 +136,7 @@ export default function Navbar(props) {
             <Link onClick={()=>{
                   handleToggle1(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/">
               <img
@@ -150,6 +156,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle1(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/"
               >
@@ -164,6 +171,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle2(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/our_team_y20"
               >
@@ -178,6 +186,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle3(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/fests"
               >
@@ -192,6 +201,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle4(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/events"
               >
@@ -216,6 +226,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle6(); 
                   handleToggle();
+                  gotoTop();
                 }}
                 to="/credits"
               >
@@ -231,6 +242,7 @@ export default function Navbar(props) {
                 onClick={()=>{
                   handleToggle7(); 
                   handleToggle();
+                  gotoTop();
                 }}
               >
                 Blogs

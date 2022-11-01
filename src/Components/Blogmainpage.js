@@ -4,11 +4,14 @@ import Blogcomponentup from "./Blogmaincomponentup.js";
 import Blogdata from "./Blogdata";
 import { Link } from "react-router-dom";
 export default function Blogmainpage() {
+  const gotoTop = ()=>{
+    window.scrollTo({top:0,left:0,behavior:"smooth"});
+  }
   return (
     <>
       <h1 className={blogmaincss.heading} >Daily Blogs</h1>
 
-      <Link to={`0`}>
+      <Link onClick={gotoTop} to={`0`}>
       <div className={blogmaincss.item1}>
         <Blogcomponentup />
       </div>
@@ -17,7 +20,7 @@ export default function Blogmainpage() {
       <div className={blogmaincss.blogcontainer}>
       {
         Blogdata.map((value)=>(
-        <Link to={`${value.id}`}>
+        <Link onClick={gotoTop} to={`${value.id}`}>
         <div key= {value.id} className={blogmaincss.item}>
           <Blogcomponent details={value} />
         </div>   </Link>

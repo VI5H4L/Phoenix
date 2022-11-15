@@ -26,7 +26,7 @@ export default function Footer(){
                 </div>
                 <div className={FooterCSS.mid_section}>
                     <div className={FooterCSS.mid2_section}>
-                        <img className={FooterCSS.phoenix_logo} src={"./logo.png"}  alt="logo" />
+                        <a href="https://www.lnmiit.ac.in/"><img className={FooterCSS.phoenix_logo} src={"./logo.png"}  alt="logo" /></a>
                     
                         <div className={FooterCSS.social_icons}>
                             <a className={FooterCSS.anchor} href="https://www.linkedin.com/company/phoenix-lnmiit/mycompany/"><img className={FooterCSS.social} src={"./linkedin.png"}  alt="logo" /></a>

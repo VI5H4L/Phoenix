@@ -11,6 +11,7 @@ import TeamsY19 from "./pages/TeamsY19"
 import Credits from "./pages/CreditsPage"
 
 import Coming from "./Components/ComingSoon";
+import Fest from "./Components/Fest";
 import SingleBlog from "./Components/SingleBlog";
 
   // Particle Background
@@ -67,7 +68,7 @@ function App() {
       <Route  path = "/our_team_y19" element={<div onClick={DisableNav}><TeamsY19 isY20={isY20} setY20false={setY20false} setY20true={setY20true} /></div>}/>
       <Route  path = "/credits" element={<div onClick={DisableNav}><Credits /></div>}/>
       <Route  path = "/events" element={<div onClick={DisableNav}><Coming /></div>}/>
-      <Route  path = "/fests" element={<div onClick={DisableNav}><Coming /></div>}/>
+      <Route  path = "/fests" element={<div onClick={DisableNav}><Fest DisableNav={DisableNav}/></div>}/>
       <Route  path = "/*" element={<div onClick={DisableNav}><Errorpage/></div>}/>
       
     </Routes>

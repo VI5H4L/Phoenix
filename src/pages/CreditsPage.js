@@ -12,14 +12,14 @@ const creditsData = {
       img: "SoftwareDivisonHead1.png",
       link1: "https://www.linkedin.com/in/kingshuk-ghosh-350b691b8",
       link2: "https://instagram.com/mrkingshuk_?igshid=YmMyMTA2M2Y=",
-      link3: "mailto:20ucs098@lnmiit.ac.in@lnmiit.ac.in",
+      link3: "mailto:20ucs098@lnmiit.ac.in@",
     },
     {
       name: "Vaibhav Jaiswal",
       img: "SoftwareDivisonHead2.png",
       link1: "https://www.linkedin.com/in/vaibhav-jaiswal01",
       link2: "https://www.instagram.com/the_curious__1/",
-      link3: "mailto:20ucc126@lnmiit.ac.in@lnmiit.ac.in",
+      link3: "mailto:20ucc126@lnmiit.ac.in",
     },
   ],
   developers: [
@@ -28,7 +28,7 @@ const creditsData = {
       img: "gaurav.png",
       link1: "https://www.linkedin.com/in/gaurav-agrawal-45119722a/",
       link2: "https://www.instagram.com/gaurav_a.g/",
-      link3: "mailto:21ucc041@lnmiit.ac.in@lnmiit.ac.in",
+      link3: "mailto:21ucc041@lnmiit.ac.in",
     },
     {
       name: "Vishal Kumar",
@@ -42,7 +42,7 @@ const creditsData = {
       img: "ramsha.png",
       link1: "https://www.linkedin.com/in/ramsha-iqbal-332620211/",
       link2: "https://www.instagram.com/_ramsha_iqbal_/",
-      link3: "mailto:21ume042@lnmiit.ac.in@lnmiit.ac.in",
+      link3: "mailto:21ume042@lnmiit.ac.in",
     },
   ],
   designer: [

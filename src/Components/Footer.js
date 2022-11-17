@@ -29,9 +29,9 @@ export default function Footer(){
                         <img className={FooterCSS.phoenix_logo} src={"./logo.png"}  alt="logo" />
                     
                         <div className={FooterCSS.social_icons}>
-                            <a className={FooterCSS.anchor} href="https://www.linkedin.com/company/phoenix-lnmiit/mycompany/"><img className={FooterCSS.social} src={"./linkedin.png"}  alt="logo" /></a>
-                            <a className={FooterCSS.anchor} href="https://www.instagram.com/phoenix.lnmiit/"><img className={FooterCSS.social} src={"./instagram.png"}  alt="logo" /></a>
-                            <a className={FooterCSS.anchor} href="https://www.facebook.com/phoenix.lnmiit/"><img className={FooterCSS.social} src={"./facebook.png"}  alt="logo" /></a>
+                            <a className={FooterCSS.anchor} href="https://www.linkedin.com/company/phoenix-lnmiit/mycompany/" target="_blank" rel="noopener noreferrer"><img className={FooterCSS.social} src={"./linkedin.png"}  alt="logo" /></a>
+                            <a className={FooterCSS.anchor} href="https://www.instagram.com/phoenix.lnmiit/" target="_blank" rel="noopener noreferrer"><img className={FooterCSS.social} src={"./instagram.png"}  alt="logo" /></a>
+                            <a className={FooterCSS.anchor} href="https://www.facebook.com/phoenix.lnmiit/" target="_blank" rel="noopener noreferrer"><img className={FooterCSS.social} src={"./facebook.png"}  alt="logo" /></a>
                         </div>
                     </div>
                     

@@ -12,7 +12,7 @@ const creditsData = {
       img: "SoftwareDivisonHead1.png",
       link1: "https://www.linkedin.com/in/kingshuk-ghosh-350b691b8",
       link2: "https://instagram.com/mrkingshuk_?igshid=YmMyMTA2M2Y=",
-      link3: "mailto:20ucs098@lnmiit.ac.in@",
+      link3: "mailto:20ucs098@lnmiit.ac.in",
     },
     {
       name: "Vaibhav Jaiswal",

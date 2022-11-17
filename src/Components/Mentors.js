@@ -19,6 +19,8 @@ function Coordinator(props)
             //  name={coordinators.coordinator[0].name
             name={props.name1}
             link1={props.link1}
+            link2={props.link2}
+            link3={props.link3}
             />
                 </div>
                 </div>
@@ -31,6 +33,9 @@ function Coordinator(props)
                 
                 <Details
                 name={props.name2}
+                link1={props.link4}
+            link2={props.link5}
+            link3={props.link6}
             //  name={coordinators.coordinator[1].name}
             />
             

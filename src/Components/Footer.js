@@ -26,7 +26,7 @@ export default function Footer(){
                 </div>
                 <div className={FooterCSS.mid_section}>
                     <div className={FooterCSS.mid2_section}>
-                        <a href="https://www.lnmiit.ac.in/"><img className={FooterCSS.phoenix_logo} src={"./logo.png"}  alt="logo" /></a>
+                        <img className={FooterCSS.phoenix_logo} src={"./logo.png"}  alt="logo" />
                     
                         <div className={FooterCSS.social_icons}>
                             <a className={FooterCSS.anchor} href="https://www.linkedin.com/company/phoenix-lnmiit/mycompany/"><img className={FooterCSS.social} src={"./linkedin.png"}  alt="logo" /></a>
@@ -45,7 +45,7 @@ export default function Footer(){
                                 <input className={FooterCSS.sub_input} type="email" placeholder="xyz@gmail.com"></input>
                             </div>
                             <div className={FooterCSS.sub_button_div}>
-                            <a className={FooterCSS.sub_anchor} href="https://www.lnmiit.ac.in/">Subscribe</a>
+                            <a className={FooterCSS.sub_anchor} href="/">Subscribe</a>
                             </div>
                         </div>
                     </div>

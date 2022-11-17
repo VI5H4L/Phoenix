@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink, useLocation} from "react-router-dom";
 import Navcss from "../Navbar.module.css";
+
 export default function Navbar(props) {
   const [isActive, setActive] = useState(false);
 
@@ -127,13 +128,15 @@ export default function Navbar(props) {
   // if(props.Disable && isActive){
   //   handleToggle();
   // }
-
+  const location = useLocation();
+  if (location.pathname === "/recruitment" && !isActive3)
+    handleToggle3();
   return (
     <>
       <nav className={scroll && Navcss.navbar}>
         <ul className={Navcss.nav_list}>
           <div className={Navcss.logo}>
-            <Link onClick={()=>{
+            <NavLink onClick={()=>{
                   handleToggle1(); 
                   // handleToggle();
                   gotoTop();
@@ -144,12 +147,12 @@ export default function Navbar(props) {
                 className={Navcss.logo_image}
                 alt="img"
               />
-            </Link>
+            </NavLink>
           </div>
           
           <div className={`${Navcss.rightnav} ${!isActive && Navcss.rightnav1} ${!isCheck && Navcss.barNotActive}`} >
             <li>
-              <Link
+              <NavLink
                 className={`${Navcss.hover_underline_animation} ${
                   isActive1 && Navcss.clickactive
                 } `}
@@ -161,7 +164,7 @@ export default function Navbar(props) {
                 to="/"
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
               <Link
@@ -179,19 +182,20 @@ export default function Navbar(props) {
               </Link>
             </li>
             <li>
-              <Link
+              <NavLink exact
                 className={`${Navcss.hover_underline_animation} ${
                   isActive3 && Navcss.clickactive
-                } `}
+                  } `}
+                activeclassname={Navcss.clickactive}
                 onClick={()=>{
                   handleToggle3(); 
                   handleToggle();
                   gotoTop();
                 }}
-                to="/fests"
+                to="/recruitment"
               >
-                Fests
-              </Link>
+                Recruitment
+              </NavLink>
             </li>
             <li>
               <Link

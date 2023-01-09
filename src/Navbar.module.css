@@ -78,6 +78,27 @@ a{
     padding-top: 4px;
  
 }
+.clickactive1{
+    /* background-color: #F0A62F;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px; */
+
+    width: 90px;
+	height: 100%;
+	transform: skew(-10deg);
+	background: #4B3688;
+	background: #003672;
+	background: #ff0000;
+    
+    color: white;
+ 
+}
+.plinth{
+	transform: skew(20deg); 
+}
 .rightnav{
     width: 55%;
     display: flex;

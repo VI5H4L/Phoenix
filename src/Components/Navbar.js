@@ -170,9 +170,8 @@ export default function Navbar(props) {
             <li>
               <a 
                 className={`${Navcss.hover_underline_animation} ${
-                  isActive3 && Navcss.clickactive
+                   Navcss.clickactive1
                   } `}
-                activeclassname={Navcss.clickactive}
                 onClick={()=>{
                   handleToggle3(); 
                   handleToggle();
@@ -180,7 +179,7 @@ export default function Navbar(props) {
                 }}
                 href="https://plinth.co.in/" target=" _blank"
               >
-                Plinth'23
+                <span className={`${Navcss.plinth}`}>Plinth'23</span>
               </a>
             </li>
 

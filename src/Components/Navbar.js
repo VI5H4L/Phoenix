@@ -166,6 +166,24 @@ export default function Navbar(props) {
                 Home
               </NavLink>
             </li>
+
+            <li>
+              <a 
+                className={`${Navcss.hover_underline_animation} ${
+                  isActive3 && Navcss.clickactive
+                  } `}
+                activeclassname={Navcss.clickactive}
+                onClick={()=>{
+                  handleToggle3(); 
+                  handleToggle();
+                  gotoTop();
+                }}
+                href="https://plinth.co.in/" target=" _blank"
+              >
+                Plinth'23
+              </a>
+            </li>
+
             <li>
               <Link
                 className={`${Navcss.hover_underline_animation} ${
@@ -181,22 +199,7 @@ export default function Navbar(props) {
                 Our Team
               </Link>
             </li>
-            <li>
-              <NavLink exact
-                className={`${Navcss.hover_underline_animation} ${
-                  isActive3 && Navcss.clickactive
-                  } `}
-                activeclassname={Navcss.clickactive}
-                onClick={()=>{
-                  handleToggle3(); 
-                  handleToggle();
-                  gotoTop();
-                }}
-                to="/recruitment"
-              >
-                Recruitment
-              </NavLink>
-            </li>
+            
             <li>
               <Link
                 className={`${Navcss.hover_underline_animation} ${
